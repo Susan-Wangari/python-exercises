@@ -1,0 +1,25 @@
+numbers = []
+numbers.append(1)
+numbers.append(2)
+numbers.append(3)
+strings = []
+strings.append("hello")
+strings.append("world")
+names = ["John", "Eric", "Jessica"]
+
+# write your code here
+second_name = names[1]
+
+
+# this code should write out the filled arrays and the second name in the names list (Eric).
+print(numbers)
+print(strings)
+print("The second name on the names list is %s" % second_name)
+
+#this uses append to add details in the number and string. It also uses bracket notation to access the list
+
+#Using Operators with Lists(addition operator)
+even_numbers = [2,4,6,8]
+odd_numbers = [1,3,5,7]
+all_numbers = odd_numbers + even_numbers
+print(all_numbers)
